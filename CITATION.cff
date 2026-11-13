@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, cite the archived version used in your analysis."
+title: "ExposureBounds"
+type: software
+authors:
+  - family-names: Firmenich
+    given-names: Facundo
+    orcid: "https://orcid.org/0009-0002-6578-3811"
+repository-code: "https://github.com/FacundoFirmenich/ExposureBounds"
+license: MIT

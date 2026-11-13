@@ -1,0 +1,1315 @@
+{
+  "release": "4.16.0",
+  "evidence_kind": "FORMAL_PROOF_OBJECTS_NOT_MEASUREMENTS",
+  "cases": {
+    "common_offset_infeasible": {
+      "release": "4.16.0",
+      "input_parameters": {
+        "schema": "living-order-acquisition-4.14",
+        "Lipschitz_bound": "1",
+        "Delta_seconds": "1",
+        "uniform_or_point_sensor_declared": true,
+        "simultaneous_bounds_declared": true,
+        "equal_prehistory_declared": true,
+        "clock_model": "shared_offset",
+        "measurements": [
+          {
+            "center": "2",
+            "width": "0",
+            "lower": "0",
+            "upper": "0"
+          },
+          {
+            "center": "14",
+            "width": "0",
+            "lower": "0",
+            "upper": "0"
+          },
+          {
+            "center": "8",
+            "width": "12",
+            "lower": "4",
+            "upper": "4"
+          }
+        ],
+        "shared_clock_radius": "1"
+      },
+      "physical_validation": "NOT_PERFORMED",
+      "clock_analysis": {
+        "input_parameters": {
+          "schema": "living-order-acquisition-4.14",
+          "Lipschitz_bound": "1",
+          "Delta_seconds": "1",
+          "uniform_or_point_sensor_declared": true,
+          "simultaneous_bounds_declared": true,
+          "equal_prehistory_declared": true,
+          "clock_model": "shared_offset",
+          "measurements": [
+            {
+              "center": "2",
+              "width": "0",
+              "lower": "0",
+              "upper": "0"
+            },
+            {
+              "center": "14",
+              "width": "0",
+              "lower": "0",
+              "upper": "0"
+            },
+            {
+              "center": "8",
+              "width": "12",
+              "lower": "4",
+              "upper": "4"
+            }
+          ],
+          "shared_clock_radius": "1"
+        },
+        "physical_validation": "NOT_PERFORMED",
+        "schema": "living-order-clock-result-4.16",
+        "status": "ORIGINAL_INFEASIBLE",
+        "method": "COMMON_TRANSLATION_EQUIVALENCE",
+        "joint_result": {
+          "schema": "living-order-joint-result-4.15",
+          "physical_validation": "NOT_PERFORMED",
+          "input_parameters": {
+            "schema": "living-order-acquisition-4.14",
+            "Lipschitz_bound": "1",
+            "Delta_seconds": "1",
+            "uniform_or_point_sensor_declared": true,
+            "simultaneous_bounds_declared": true,
+            "equal_prehistory_declared": true,
+            "clock_model": "shared_offset",
+            "measurements": [
+              {
+                "center": "2",
+                "width": "0",
+                "lower": "0",
+                "upper": "0"
+              },
+              {
+                "center": "14",
+                "width": "0",
+                "lower": "0",
+                "upper": "0"
+              },
+              {
+                "center": "8",
+                "width": "12",
+                "lower": "4",
+                "upper": "4"
+              }
+            ],
+            "shared_clock_radius": "0"
+          },
+          "previous_status": "OUTER_FEASIBLE_ORIGINAL_UNRESOLVED",
+          "attempts": [
+            {
+              "level": 0,
+              "nodes": 4,
+              "primal_solver_status": 2,
+              "dual_solver_status": 0,
+              "outer_measurement_relaxation": [
+                "0",
+                "0",
+                "4"
+              ]
+            },
+            {
+              "level": 1,
+              "nodes": 7,
+              "primal_solver_status": 2,
+              "dual_solver_status": 0,
+              "outer_measurement_relaxation": [
+                "0",
+                "0",
+                "2"
+              ]
+            },
+            {
+              "level": 2,
+              "nodes": 13,
+              "primal_solver_status": 2,
+              "dual_solver_status": 0,
+              "outer_measurement_relaxation": [
+                "0",
+                "0",
+                "1"
+              ]
+            },
+            {
+              "level": 3,
+              "nodes": 25,
+              "primal_solver_status": 2,
+              "dual_solver_status": 0,
+              "outer_measurement_relaxation": [
+                "0",
+                "0",
+                "1/2"
+              ]
+            }
+          ],
+          "tail_certificate": {
+            "status": "ABSTAIN_TAIL_SIGN",
+            "minimum_tail_area": "-31/2",
+            "total_area": "-31/2",
+            "interval_checks": [
+              {
+                "interval": [
+                  "0",
+                  "2"
+                ],
+                "minimum": "-31/2"
+              },
+              {
+                "interval": [
+                  "2",
+                  "9/2"
+                ],
+                "minimum": "-27/2"
+              },
+              {
+                "interval": [
+                  "9/2",
+                  "8"
+                ],
+                "minimum": "-83/8"
+              },
+              {
+                "interval": [
+                  "8",
+                  "23/2"
+                ],
+                "minimum": "-33/4"
+              },
+              {
+                "interval": [
+                  "23/2",
+                  "14"
+                ],
+                "minimum": "-41/8"
+              },
+              {
+                "interval": [
+                  "14",
+                  "16"
+                ],
+                "minimum": "-2"
+              }
+            ]
+          },
+          "status": "ORIGINAL_INFEASIBLE",
+          "certificate": {
+            "kind": "FARKAS_OUTER",
+            "level": 3,
+            "multipliers": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "3/32",
+              "0",
+              "1/16",
+              "0",
+              "1/32",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1/32",
+              "0",
+              "1/16",
+              "0",
+              "3/32",
+              "0",
+              "1/8",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "7/64",
+              "0",
+              "9/64",
+              "0",
+              "0",
+              "1/4"
+            ],
+            "contradiction": "-1/8"
+          }
+        }
+      },
+      "auxiliary_clock_sign_scope": "Nested joint_result tail certificates concern shifted auxiliary contracts only.",
+      "original_tail_certificate": {
+        "status": "ABSTAIN_TAIL_SIGN",
+        "minimum_tail_area": "-7103/288",
+        "total_area": "-7103/288",
+        "interval_checks": [
+          {
+            "interval": [
+              "0",
+              "2"
+            ],
+            "minimum": "-7103/288"
+          },
+          {
+            "interval": [
+              "2",
+              "97/24"
+            ],
+            "minimum": "-5951/288"
+          },
+          {
+            "interval": [
+              "97/24",
+              "8"
+            ],
+            "minimum": "-19051/1152"
+          },
+          {
+            "interval": [
+              "8",
+              "287/24"
+            ],
+            "minimum": "-7345/576"
+          },
+          {
+            "interval": [
+              "287/24",
+              "14"
+            ],
+            "minimum": "-9361/1152"
+          },
+          {
+            "interval": [
+              "14",
+              "16"
+            ],
+            "minimum": "-4"
+          }
+        ]
+      }
+    },
+    "nonzero_boundary_offsets_feasible": {
+      "release": "4.16.0",
+      "input_parameters": {
+        "schema": "living-order-acquisition-4.14",
+        "Lipschitz_bound": "1",
+        "Delta_seconds": "1",
+        "uniform_or_point_sensor_declared": true,
+        "simultaneous_bounds_declared": true,
+        "equal_prehistory_declared": true,
+        "clock_model": "independent_bounded_offsets",
+        "measurements": [
+          {
+            "center": "8",
+            "width": "0",
+            "lower": "0",
+            "upper": "0",
+            "clock_radius": "1"
+          },
+          {
+            "center": "8",
+            "width": "0",
+            "lower": "2",
+            "upper": "2",
+            "clock_radius": "1"
+          }
+        ]
+      },
+      "physical_validation": "NOT_PERFORMED",
+      "clock_analysis": {
+        "input_parameters": {
+          "schema": "living-order-acquisition-4.14",
+          "Lipschitz_bound": "1",
+          "Delta_seconds": "1",
+          "uniform_or_point_sensor_declared": true,
+          "simultaneous_bounds_declared": true,
+          "equal_prehistory_declared": true,
+          "clock_model": "independent_bounded_offsets",
+          "measurements": [
+            {
+              "center": "8",
+              "width": "0",
+              "lower": "0",
+              "upper": "0",
+              "clock_radius": "1"
+            },
+            {
+              "center": "8",
+              "width": "0",
+              "lower": "2",
+              "upper": "2",
+              "clock_radius": "1"
+            }
+          ]
+        },
+        "physical_validation": "NOT_PERFORMED",
+        "schema": "living-order-clock-result-4.16",
+        "status": "ORIGINAL_FEASIBLE",
+        "method": "EXPLICIT_OFFSET_WITNESS",
+        "box": [
+          [
+            "-1",
+            "-1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "joint_result": {
+          "schema": "living-order-joint-result-4.15",
+          "physical_validation": "NOT_PERFORMED",
+          "input_parameters": {
+            "schema": "living-order-acquisition-4.14",
+            "Lipschitz_bound": "1",
+            "Delta_seconds": "1",
+            "uniform_or_point_sensor_declared": true,
+            "simultaneous_bounds_declared": true,
+            "equal_prehistory_declared": true,
+            "clock_model": "independent_bounded_offsets",
+            "measurements": [
+              {
+                "center": "7",
+                "width": "0",
+                "lower": "0",
+                "upper": "0",
+                "clock_radius": "0"
+              },
+              {
+                "center": "9",
+                "width": "0",
+                "lower": "2",
+                "upper": "2",
+                "clock_radius": "0"
+              }
+            ]
+          },
+          "previous_status": "OUTER_FEASIBLE_ORIGINAL_UNRESOLVED",
+          "attempts": [
+            {
+              "level": 0,
+              "nodes": 4,
+              "primal_solver_status": 0
+            }
+          ],
+          "tail_certificate": {
+            "status": "ABSTAIN_TAIL_SIGN",
+            "minimum_tail_area": "-33",
+            "total_area": "-33",
+            "interval_checks": [
+              {
+                "interval": [
+                  "0",
+                  "7"
+                ],
+                "minimum": "-33"
+              },
+              {
+                "interval": [
+                  "7",
+                  "9"
+                ],
+                "minimum": "-21/2"
+              },
+              {
+                "interval": [
+                  "9",
+                  "16"
+                ],
+                "minimum": "-25/2"
+              }
+            ]
+          },
+          "status": "ORIGINAL_FEASIBLE",
+          "certificate": {
+            "kind": "PRIMAL_PIECEWISE_LINEAR",
+            "level": 0,
+            "values": [
+              "-7",
+              "0",
+              "2",
+              "-5"
+            ],
+            "clock_offsets": "ALL_ZERO"
+          }
+        },
+        "corner_probes": 2
+      },
+      "auxiliary_clock_sign_scope": "Nested joint_result tail certificates concern shifted auxiliary contracts only.",
+      "original_tail_certificate": {
+        "status": "ABSTAIN_TAIL_SIGN",
+        "minimum_tail_area": "-48",
+        "total_area": "-48",
+        "interval_checks": [
+          {
+            "interval": [
+              "0",
+              "8"
+            ],
+            "minimum": "-48"
+          },
+          {
+            "interval": [
+              "8",
+              "16"
+            ],
+            "minimum": "-49/2"
+          }
+        ]
+      }
+    },
+    "all_offsets_excluded": {
+      "release": "4.16.0",
+      "input_parameters": {
+        "schema": "living-order-acquisition-4.14",
+        "Lipschitz_bound": "1",
+        "Delta_seconds": "1",
+        "uniform_or_point_sensor_declared": true,
+        "simultaneous_bounds_declared": true,
+        "equal_prehistory_declared": true,
+        "clock_model": "independent_bounded_offsets",
+        "measurements": [
+          {
+            "center": "6",
+            "width": "0",
+            "lower": "0",
+            "upper": "0",
+            "clock_radius": "0"
+          },
+          {
+            "center": "10",
+            "width": "0",
+            "lower": "0",
+            "upper": "0",
+            "clock_radius": "0"
+          },
+          {
+            "center": "8",
+            "width": "0",
+            "lower": "3",
+            "upper": "3",
+            "clock_radius": "1"
+          }
+        ]
+      },
+      "physical_validation": "NOT_PERFORMED",
+      "clock_analysis": {
+        "input_parameters": {
+          "schema": "living-order-acquisition-4.14",
+          "Lipschitz_bound": "1",
+          "Delta_seconds": "1",
+          "uniform_or_point_sensor_declared": true,
+          "simultaneous_bounds_declared": true,
+          "equal_prehistory_declared": true,
+          "clock_model": "independent_bounded_offsets",
+          "measurements": [
+            {
+              "center": "6",
+              "width": "0",
+              "lower": "0",
+              "upper": "0",
+              "clock_radius": "0"
+            },
+            {
+              "center": "10",
+              "width": "0",
+              "lower": "0",
+              "upper": "0",
+              "clock_radius": "0"
+            },
+            {
+              "center": "8",
+              "width": "0",
+              "lower": "3",
+              "upper": "3",
+              "clock_radius": "1"
+            }
+          ]
+        },
+        "physical_validation": "NOT_PERFORMED",
+        "schema": "living-order-clock-result-4.16",
+        "status": "ORIGINAL_INFEASIBLE",
+        "method": "EXHAUSTIVE_BOX_COVER",
+        "tree": {
+          "kind": "SPLIT",
+          "axis": 2,
+          "children": [
+            {
+              "kind": "REJECTED",
+              "joint_result": {
+                "schema": "living-order-joint-result-4.15",
+                "physical_validation": "NOT_PERFORMED",
+                "input_parameters": {
+                  "schema": "living-order-acquisition-4.14",
+                  "Lipschitz_bound": "1",
+                  "Delta_seconds": "1",
+                  "uniform_or_point_sensor_declared": true,
+                  "simultaneous_bounds_declared": true,
+                  "equal_prehistory_declared": true,
+                  "clock_model": "independent_bounded_offsets",
+                  "measurements": [
+                    {
+                      "center": "6",
+                      "width": "0",
+                      "lower": "0",
+                      "upper": "0",
+                      "clock_radius": "0"
+                    },
+                    {
+                      "center": "10",
+                      "width": "0",
+                      "lower": "0",
+                      "upper": "0",
+                      "clock_radius": "0"
+                    },
+                    {
+                      "center": "15/2",
+                      "width": "0",
+                      "lower": "3",
+                      "upper": "3",
+                      "clock_radius": "1/2"
+                    }
+                  ]
+                },
+                "previous_status": "INCONSISTENT_PAIR",
+                "attempts": [],
+                "status": "INHERITED_GATE",
+                "gate": {
+                  "schema": "living-order-acquisition-result-4.14",
+                  "physical_validation": "NOT_PERFORMED",
+                  "clock_model": "independent_bounded_offsets",
+                  "input_parameters": {
+                    "schema": "living-order-acquisition-4.14",
+                    "Lipschitz_bound": "1",
+                    "Delta_seconds": "1",
+                    "uniform_or_point_sensor_declared": true,
+                    "simultaneous_bounds_declared": true,
+                    "equal_prehistory_declared": true,
+                    "clock_model": "independent_bounded_offsets",
+                    "measurements": [
+                      {
+                        "center": "6",
+                        "width": "0",
+                        "lower": "0",
+                        "upper": "0",
+                        "clock_radius": "0"
+                      },
+                      {
+                        "center": "10",
+                        "width": "0",
+                        "lower": "0",
+                        "upper": "0",
+                        "clock_radius": "0"
+                      },
+                      {
+                        "center": "15/2",
+                        "width": "0",
+                        "lower": "3",
+                        "upper": "3",
+                        "clock_radius": "1/2"
+                      }
+                    ]
+                  },
+                  "center_inflation": [
+                    "0",
+                    "0",
+                    "1/2"
+                  ],
+                  "status": "INCONSISTENT_PAIR",
+                  "witness": {
+                    "i": 2,
+                    "j": 0,
+                    "W1_upper": "2",
+                    "slack": "-1"
+                  }
+                }
+              }
+            },
+            {
+              "kind": "REJECTED",
+              "joint_result": {
+                "schema": "living-order-joint-result-4.15",
+                "physical_validation": "NOT_PERFORMED",
+                "input_parameters": {
+                  "schema": "living-order-acquisition-4.14",
+                  "Lipschitz_bound": "1",
+                  "Delta_seconds": "1",
+                  "uniform_or_point_sensor_declared": true,
+                  "simultaneous_bounds_declared": true,
+                  "equal_prehistory_declared": true,
+                  "clock_model": "independent_bounded_offsets",
+                  "measurements": [
+                    {
+                      "center": "6",
+                      "width": "0",
+                      "lower": "0",
+                      "upper": "0",
+                      "clock_radius": "0"
+                    },
+                    {
+                      "center": "10",
+                      "width": "0",
+                      "lower": "0",
+                      "upper": "0",
+                      "clock_radius": "0"
+                    },
+                    {
+                      "center": "17/2",
+                      "width": "0",
+                      "lower": "3",
+                      "upper": "3",
+                      "clock_radius": "1/2"
+                    }
+                  ]
+                },
+                "previous_status": "INCONSISTENT_PAIR",
+                "attempts": [],
+                "status": "INHERITED_GATE",
+                "gate": {
+                  "schema": "living-order-acquisition-result-4.14",
+                  "physical_validation": "NOT_PERFORMED",
+                  "clock_model": "independent_bounded_offsets",
+                  "input_parameters": {
+                    "schema": "living-order-acquisition-4.14",
+                    "Lipschitz_bound": "1",
+                    "Delta_seconds": "1",
+                    "uniform_or_point_sensor_declared": true,
+                    "simultaneous_bounds_declared": true,
+                    "equal_prehistory_declared": true,
+                    "clock_model": "independent_bounded_offsets",
+                    "measurements": [
+                      {
+                        "center": "6",
+                        "width": "0",
+                        "lower": "0",
+                        "upper": "0",
+                        "clock_radius": "0"
+                      },
+                      {
+                        "center": "10",
+                        "width": "0",
+                        "lower": "0",
+                        "upper": "0",
+                        "clock_radius": "0"
+                      },
+                      {
+                        "center": "17/2",
+                        "width": "0",
+                        "lower": "3",
+                        "upper": "3",
+                        "clock_radius": "1/2"
+                      }
+                    ]
+                  },
+                  "center_inflation": [
+                    "0",
+                    "0",
+                    "1/2"
+                  ],
+                  "status": "INCONSISTENT_PAIR",
+                  "witness": {
+                    "i": 2,
+                    "j": 1,
+                    "W1_upper": "2",
+                    "slack": "-1"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "boxes_processed": 3,
+        "corner_probes": 2
+      },
+      "auxiliary_clock_sign_scope": "Nested joint_result tail certificates concern shifted auxiliary contracts only.",
+      "original_tail_certificate": {
+        "status": "ABSTAIN_TAIL_SIGN",
+        "minimum_tail_area": "-32",
+        "total_area": "-32",
+        "interval_checks": [
+          {
+            "interval": [
+              "0",
+              "6"
+            ],
+            "minimum": "-32"
+          },
+          {
+            "interval": [
+              "6",
+              "8"
+            ],
+            "minimum": "-16"
+          },
+          {
+            "interval": [
+              "8",
+              "10"
+            ],
+            "minimum": "-18"
+          },
+          {
+            "interval": [
+              "10",
+              "16"
+            ],
+            "minimum": "-18"
+          }
+        ]
+      }
+    },
+    "band_positive_with_negative_tails": {
+      "release": "4.16.0",
+      "input_parameters": {
+        "schema": "living-order-acquisition-4.14",
+        "Lipschitz_bound": "1/4",
+        "Delta_seconds": "1",
+        "uniform_or_point_sensor_declared": true,
+        "simultaneous_bounds_declared": true,
+        "equal_prehistory_declared": true,
+        "clock_model": "independent_bounded_offsets",
+        "measurements": [
+          {
+            "center": "0",
+            "width": "0",
+            "lower": "3",
+            "upper": "3",
+            "clock_radius": "0"
+          },
+          {
+            "center": "16",
+            "width": "0",
+            "lower": "-1",
+            "upper": "-1",
+            "clock_radius": "0"
+          }
+        ]
+      },
+      "physical_validation": "NOT_PERFORMED",
+      "clock_analysis": {
+        "input_parameters": {
+          "schema": "living-order-acquisition-4.14",
+          "Lipschitz_bound": "1/4",
+          "Delta_seconds": "1",
+          "uniform_or_point_sensor_declared": true,
+          "simultaneous_bounds_declared": true,
+          "equal_prehistory_declared": true,
+          "clock_model": "independent_bounded_offsets",
+          "measurements": [
+            {
+              "center": "0",
+              "width": "0",
+              "lower": "3",
+              "upper": "3",
+              "clock_radius": "0"
+            },
+            {
+              "center": "16",
+              "width": "0",
+              "lower": "-1",
+              "upper": "-1",
+              "clock_radius": "0"
+            }
+          ]
+        },
+        "physical_validation": "NOT_PERFORMED",
+        "schema": "living-order-clock-result-4.16",
+        "status": "ORIGINAL_FEASIBLE",
+        "method": "EXPLICIT_OFFSET_WITNESS",
+        "box": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        "joint_result": {
+          "schema": "living-order-joint-result-4.15",
+          "physical_validation": "NOT_PERFORMED",
+          "input_parameters": {
+            "schema": "living-order-acquisition-4.14",
+            "Lipschitz_bound": "1/4",
+            "Delta_seconds": "1",
+            "uniform_or_point_sensor_declared": true,
+            "simultaneous_bounds_declared": true,
+            "equal_prehistory_declared": true,
+            "clock_model": "independent_bounded_offsets",
+            "measurements": [
+              {
+                "center": "0",
+                "width": "0",
+                "lower": "3",
+                "upper": "3",
+                "clock_radius": "0"
+              },
+              {
+                "center": "16",
+                "width": "0",
+                "lower": "-1",
+                "upper": "-1",
+                "clock_radius": "0"
+              }
+            ]
+          },
+          "previous_status": "OUTER_FEASIBLE_ORIGINAL_UNRESOLVED",
+          "attempts": [
+            {
+              "level": 0,
+              "nodes": 2,
+              "primal_solver_status": 0
+            }
+          ],
+          "tail_certificate": {
+            "status": "ABSTAIN_TAIL_SIGN",
+            "minimum_tail_area": "-2",
+            "total_area": "16",
+            "interval_checks": [
+              {
+                "interval": [
+                  "0",
+                  "16"
+                ],
+                "minimum": "-2"
+              }
+            ]
+          },
+          "status": "ORIGINAL_FEASIBLE",
+          "certificate": {
+            "kind": "PRIMAL_PIECEWISE_LINEAR",
+            "level": 0,
+            "values": [
+              "3",
+              "-1"
+            ],
+            "clock_offsets": "ALL_ZERO"
+          }
+        },
+        "corner_probes": 1
+      },
+      "auxiliary_clock_sign_scope": "Nested joint_result tail certificates concern shifted auxiliary contracts only.",
+      "original_tail_certificate": {
+        "status": "ABSTAIN_TAIL_SIGN",
+        "minimum_tail_area": "-2",
+        "total_area": "16",
+        "interval_checks": [
+          {
+            "interval": [
+              "0",
+              "16"
+            ],
+            "minimum": "-2"
+          }
+        ]
+      },
+      "spectral_band": {
+        "input_parameters": {
+          "schema": "living-order-acquisition-4.14",
+          "Lipschitz_bound": "1/4",
+          "Delta_seconds": "1",
+          "uniform_or_point_sensor_declared": true,
+          "simultaneous_bounds_declared": true,
+          "equal_prehistory_declared": true,
+          "clock_model": "independent_bounded_offsets",
+          "measurements": [
+            {
+              "center": "0",
+              "width": "0",
+              "lower": "3",
+              "upper": "3",
+              "clock_radius": "0"
+            },
+            {
+              "center": "16",
+              "width": "0",
+              "lower": "-1",
+              "upper": "-1",
+              "clock_radius": "0"
+            }
+          ]
+        },
+        "band": [
+          "1/100",
+          "1/20"
+        ],
+        "physical_validation": "NOT_PERFORMED",
+        "scope": "Conditional on original feasibility; no claim outside this rate band.",
+        "status": "POSITIVE_ON_BAND_IF_FEASIBLE",
+        "derivative_bound": "320",
+        "cells": [
+          {
+            "interval": [
+              "1/100",
+              "1/20"
+            ],
+            "lower": "3560947491642469376087356217385055184/831641538657434027518596455397851065",
+            "upper": "103812778670267259091608792680240259248/6077380474804325585712820917786680195"
+          }
+        ]
+      },
+      "spectral_mixture": {
+        "status": "ABSTAIN_MISSING_SPECTRAL_COVERAGE"
+      }
+    },
+    "unresolved_budget_preserved": {
+      "release": "4.16.0",
+      "input_parameters": {
+        "schema": "living-order-acquisition-4.14",
+        "Lipschitz_bound": "1",
+        "Delta_seconds": "1",
+        "uniform_or_point_sensor_declared": true,
+        "simultaneous_bounds_declared": true,
+        "equal_prehistory_declared": true,
+        "clock_model": "independent_bounded_offsets",
+        "measurements": [
+          {
+            "center": "6",
+            "width": "0",
+            "lower": "0",
+            "upper": "0",
+            "clock_radius": "0"
+          },
+          {
+            "center": "10",
+            "width": "0",
+            "lower": "0",
+            "upper": "0",
+            "clock_radius": "0"
+          },
+          {
+            "center": "8",
+            "width": "0",
+            "lower": "3",
+            "upper": "3",
+            "clock_radius": "1"
+          }
+        ]
+      },
+      "physical_validation": "NOT_PERFORMED",
+      "clock_analysis": {
+        "input_parameters": {
+          "schema": "living-order-acquisition-4.14",
+          "Lipschitz_bound": "1",
+          "Delta_seconds": "1",
+          "uniform_or_point_sensor_declared": true,
+          "simultaneous_bounds_declared": true,
+          "equal_prehistory_declared": true,
+          "clock_model": "independent_bounded_offsets",
+          "measurements": [
+            {
+              "center": "6",
+              "width": "0",
+              "lower": "0",
+              "upper": "0",
+              "clock_radius": "0"
+            },
+            {
+              "center": "10",
+              "width": "0",
+              "lower": "0",
+              "upper": "0",
+              "clock_radius": "0"
+            },
+            {
+              "center": "8",
+              "width": "0",
+              "lower": "3",
+              "upper": "3",
+              "clock_radius": "1"
+            }
+          ]
+        },
+        "physical_validation": "NOT_PERFORMED",
+        "schema": "living-order-clock-result-4.16",
+        "status": "ABSTAIN_CLOCK_UNRESOLVED",
+        "method": "EXHAUSTIVE_BOX_COVER",
+        "tree": {
+          "kind": "SPLIT",
+          "axis": 2,
+          "children": [
+            {
+              "kind": "UNVISITED"
+            },
+            {
+              "kind": "UNVISITED"
+            }
+          ]
+        },
+        "boxes_processed": 1,
+        "corner_probes": 2
+      },
+      "auxiliary_clock_sign_scope": "Nested joint_result tail certificates concern shifted auxiliary contracts only.",
+      "original_tail_certificate": {
+        "status": "ABSTAIN_TAIL_SIGN",
+        "minimum_tail_area": "-32",
+        "total_area": "-32",
+        "interval_checks": [
+          {
+            "interval": [
+              "0",
+              "6"
+            ],
+            "minimum": "-32"
+          },
+          {
+            "interval": [
+              "6",
+              "8"
+            ],
+            "minimum": "-16"
+          },
+          {
+            "interval": [
+              "8",
+              "10"
+            ],
+            "minimum": "-18"
+          },
+          {
+            "interval": [
+              "10",
+              "16"
+            ],
+            "minimum": "-18"
+          }
+        ]
+      }
+    },
+    "qualified_spectral_mixture": {
+      "release": "4.16.0",
+      "input_parameters": {
+        "schema": "living-order-acquisition-4.14",
+        "Lipschitz_bound": "1/4",
+        "Delta_seconds": "1",
+        "uniform_or_point_sensor_declared": true,
+        "simultaneous_bounds_declared": true,
+        "equal_prehistory_declared": true,
+        "clock_model": "independent_bounded_offsets",
+        "measurements": [
+          {
+            "center": "0",
+            "width": "0",
+            "lower": "3",
+            "upper": "3",
+            "clock_radius": "0"
+          },
+          {
+            "center": "16",
+            "width": "0",
+            "lower": "-1",
+            "upper": "-1",
+            "clock_radius": "0"
+          }
+        ],
+        "outside_spectral_mass_upper": "1/100",
+        "nonnegative_normalized_spectrum_declared": true
+      },
+      "physical_validation": "NOT_PERFORMED",
+      "clock_analysis": {
+        "input_parameters": {
+          "schema": "living-order-acquisition-4.14",
+          "Lipschitz_bound": "1/4",
+          "Delta_seconds": "1",
+          "uniform_or_point_sensor_declared": true,
+          "simultaneous_bounds_declared": true,
+          "equal_prehistory_declared": true,
+          "clock_model": "independent_bounded_offsets",
+          "measurements": [
+            {
+              "center": "0",
+              "width": "0",
+              "lower": "3",
+              "upper": "3",
+              "clock_radius": "0"
+            },
+            {
+              "center": "16",
+              "width": "0",
+              "lower": "-1",
+              "upper": "-1",
+              "clock_radius": "0"
+            }
+          ],
+          "outside_spectral_mass_upper": "1/100",
+          "nonnegative_normalized_spectrum_declared": true
+        },
+        "physical_validation": "NOT_PERFORMED",
+        "schema": "living-order-clock-result-4.16",
+        "status": "ORIGINAL_FEASIBLE",
+        "method": "EXPLICIT_OFFSET_WITNESS",
+        "box": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        "joint_result": {
+          "schema": "living-order-joint-result-4.15",
+          "physical_validation": "NOT_PERFORMED",
+          "input_parameters": {
+            "schema": "living-order-acquisition-4.14",
+            "Lipschitz_bound": "1/4",
+            "Delta_seconds": "1",
+            "uniform_or_point_sensor_declared": true,
+            "simultaneous_bounds_declared": true,
+            "equal_prehistory_declared": true,
+            "clock_model": "independent_bounded_offsets",
+            "measurements": [
+              {
+                "center": "0",
+                "width": "0",
+                "lower": "3",
+                "upper": "3",
+                "clock_radius": "0"
+              },
+              {
+                "center": "16",
+                "width": "0",
+                "lower": "-1",
+                "upper": "-1",
+                "clock_radius": "0"
+              }
+            ],
+            "outside_spectral_mass_upper": "1/100",
+            "nonnegative_normalized_spectrum_declared": true
+          },
+          "previous_status": "OUTER_FEASIBLE_ORIGINAL_UNRESOLVED",
+          "attempts": [
+            {
+              "level": 0,
+              "nodes": 2,
+              "primal_solver_status": 0
+            }
+          ],
+          "tail_certificate": {
+            "status": "ABSTAIN_TAIL_SIGN",
+            "minimum_tail_area": "-2",
+            "total_area": "16",
+            "interval_checks": [
+              {
+                "interval": [
+                  "0",
+                  "16"
+                ],
+                "minimum": "-2"
+              }
+            ]
+          },
+          "status": "ORIGINAL_FEASIBLE",
+          "certificate": {
+            "kind": "PRIMAL_PIECEWISE_LINEAR",
+            "level": 0,
+            "values": [
+              "3",
+              "-1"
+            ],
+            "clock_offsets": "ALL_ZERO"
+          }
+        },
+        "corner_probes": 1
+      },
+      "auxiliary_clock_sign_scope": "Nested joint_result tail certificates concern shifted auxiliary contracts only.",
+      "original_tail_certificate": {
+        "status": "ABSTAIN_TAIL_SIGN",
+        "minimum_tail_area": "-2",
+        "total_area": "16",
+        "interval_checks": [
+          {
+            "interval": [
+              "0",
+              "16"
+            ],
+            "minimum": "-2"
+          }
+        ]
+      },
+      "spectral_band": {
+        "input_parameters": {
+          "schema": "living-order-acquisition-4.14",
+          "Lipschitz_bound": "1/4",
+          "Delta_seconds": "1",
+          "uniform_or_point_sensor_declared": true,
+          "simultaneous_bounds_declared": true,
+          "equal_prehistory_declared": true,
+          "clock_model": "independent_bounded_offsets",
+          "measurements": [
+            {
+              "center": "0",
+              "width": "0",
+              "lower": "3",
+              "upper": "3",
+              "clock_radius": "0"
+            },
+            {
+              "center": "16",
+              "width": "0",
+              "lower": "-1",
+              "upper": "-1",
+              "clock_radius": "0"
+            }
+          ],
+          "outside_spectral_mass_upper": "1/100",
+          "nonnegative_normalized_spectrum_declared": true
+        },
+        "band": [
+          "1/100",
+          "1/20"
+        ],
+        "physical_validation": "NOT_PERFORMED",
+        "scope": "Conditional on original feasibility; no claim outside this rate band.",
+        "status": "POSITIVE_ON_BAND_IF_FEASIBLE",
+        "derivative_bound": "320",
+        "cells": [
+          {
+            "interval": [
+              "1/100",
+              "1/20"
+            ],
+            "lower": "3560947491642469376087356217385055184/831641538657434027518596455397851065",
+            "upper": "103812778670267259091608792680240259248/6077380474804325585712820917786680195"
+          }
+        ]
+      },
+      "spectral_mixture": {
+        "status": "POSITIVE_NORMALIZED_MIXTURE_IF_FEASIBLE",
+        "outside_mass_upper": "1/100",
+        "certified_band_margin": "3560947491642469376087356217385055184/831641538657434027518596455397851065",
+        "outside_negative_area_bound": "2",
+        "mixture_lower_bound": "175435259297644800088805536305162380543/41582076932871701375929822769892553250",
+        "scope": "Conditional on declared nonnegative normalized spectrum, coverage bound and original feasibility."
+      }
+    }
+  }
+}
